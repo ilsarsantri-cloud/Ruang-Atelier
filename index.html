@@ -1,0 +1,288 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Ruang Atelier — studio arsitektur dan desain ruang yang dirancang sesuai cara Anda hidup.">
+  <title>Ruang Atelier | Architecture Studio</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./style.css">
+  <script src="./script.js" defer></script>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Ruang Atelier home">
+      RUANG<span>ATELIER</span>
+      <small>ARCHITECTURE & DESIGN</small>
+    </a>
+
+    <button class="menu-toggle" aria-label="Buka menu"
+      aria-expanded="false" aria-controls="main-nav">
+      <span></span><span></span>
+    </button>
+
+    <nav class="main-nav" id="main-nav">
+      <a href="#home">Home</a>
+      <a href="#about">Studio</a>
+      <a href="#projects">Projects</a>
+      <a href="#process">Process</a>
+      <a class="nav-cta" href="#contact">Let's Talk <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero section-pad" id="home">
+      <div class="hero-copy reveal">
+        <p class="eyebrow"><span></span> INDEPENDENT ARCHITECTURE STUDIO</p>
+
+        <h1>Architecture shaped around <em>the way you live.</em></h1>
+
+        <p class="hero-description">
+          We create thoughtful spaces that balance timeless architecture,
+          everyday functionality, and the beauty of simple living.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#projects" class="button button-dark">Explore our work <span>↗</span></a>
+          <a href="#about" class="text-link">Discover the studio <span>↓</span></a>
+        </div>
+
+        <div class="hero-note">
+          <span class="note-line"></span>
+          <p>Considered design. Meaningful spaces.<br>Built around you.</p>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal">
+        <img
+          src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1400&q=85"
+          alt="Interior hunian modern dengan material alami"
+          fetchpriority="high"
+        >
+        <div class="image-caption">
+          <span>01 / SPACES THAT FEEL LIKE HOME</span>
+          <span>Residential · Interior</span>
+        </div>
+        <div class="vertical-label">DESIGNED WITH INTENTION — EST. 2020</div>
+      </div>
+
+      <div class="hero-index">01 <span>—</span> 04</div>
+    </section>
+
+    <!-- INTRO / STUDIO -->
+    <section class="intro section-pad" id="about">
+      <div class="section-label reveal">
+        <span>01</span>
+        <span>OUR PHILOSOPHY</span>
+      </div>
+
+      <div class="intro-content reveal">
+        <p class="eyebrow">MORE THAN JUST BUILDINGS</p>
+        <h2>Good architecture isn't just seen.<br>
+          <em>It's experienced.</em>
+        </h2>
+        <div class="intro-bottom">
+          <p>
+            We believe the best spaces begin with listening. Your routines,
+            your aspirations, and the little things that make a place yours
+            become the foundation of every design decision.
+          </p>
+          <a class="circle-link" href="#services" aria-label="Explore our services">↘</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="projects section-pad" id="projects">
+      <div class="section-heading reveal">
+        <div>
+          <p class="eyebrow">A SELECTION OF OUR WORK</p>
+          <h2>Spaces with <em>a story.</em></h2>
+        </div>
+        <a href="#contact" class="text-link">Have a project in mind? ↗</a>
+      </div>
+
+      <div class="project-grid">
+        <article class="project-card project-large reveal">
+          <a href="#contact" class="project-image">
+            <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1400&q=85"
+              alt="Hunian modern dengan ruang terbuka" loading="lazy">
+            <span class="project-arrow">↗</span>
+          </a>
+          <div class="project-info">
+            <div>
+              <h3>The Quiet Residence</h3>
+              <p>Private Residence · Residential</p>
+            </div>
+            <span>2025</span>
+          </div>
+        </article>
+
+        <article class="project-card project-small reveal">
+          <a href="#contact" class="project-image">
+            <img src="https://images.unsplash.com/photo-1600210492493-0946911123ea?auto=format&fit=crop&w=1000&q=85"
+              alt="Interior ruang keluarga minimalis" loading="lazy">
+            <span class="project-arrow">↗</span>
+          </a>
+          <div class="project-info">
+            <div>
+              <h3>Slow Living House</h3>
+              <p>Interior · Residential</p>
+            </div>
+            <span>2024</span>
+          </div>
+        </article>
+
+        <article class="project-card project-small reveal">
+          <a href="#contact" class="project-image">
+            <img src="https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=1000&q=85"
+              alt="Detail desain interior kontemporer" loading="lazy">
+            <span class="project-arrow">↗</span>
+          </a>
+          <div class="project-info">
+            <div>
+              <h3>Form & Function</h3>
+              <p>Architecture · Residential</p>
+            </div>
+            <span>2024</span>
+          </div>
+        </article>
+      </div>
+
+      <p class="portfolio-note">
+        *Project names, dates, and portfolio imagery are illustrative demo content.
+      </p>
+    </section>
+
+    <!-- SERVICES -->
+    <section class="services section-pad" id="services">
+      <div class="section-label reveal">
+        <span>02</span>
+        <span>WHAT WE DO</span>
+      </div>
+
+      <div class="services-layout">
+        <div class="services-heading reveal">
+          <p class="eyebrow">OUR EXPERTISE</p>
+          <h2>Thoughtful design,<br><em>from start to finish.</em></h2>
+          <p>From the first sketch to the final details, we bring clarity and care to every stage.</p>
+        </div>
+
+        <div class="service-list reveal">
+          <article class="service-item">
+            <span class="service-number">01</span>
+            <div><h3>Architectural Design</h3><p>Homes shaped by light, context, and the way you live.</p></div>
+            <span class="service-symbol">↗</span>
+          </article>
+          <article class="service-item">
+            <span class="service-number">02</span>
+            <div><h3>Interior Design</h3><p>Warm, considered interiors with purpose in every detail.</p></div>
+            <span class="service-symbol">↗</span>
+          </article>
+          <article class="service-item">
+            <span class="service-number">03</span>
+            <div><h3>Renovation & Remodelling</h3><p>Giving existing spaces a new perspective and life.</p></div>
+            <span class="service-symbol">↗</span>
+          </article>
+          <article class="service-item">
+            <span class="service-number">04</span>
+            <div><h3>Design Consultation</h3><p>Expert guidance to help turn early ideas into a clear plan.</p></div>
+            <span class="service-symbol">↗</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- APPROACH -->
+    <section class="approach section-pad" id="process">
+      <div class="approach-image reveal">
+        <img src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=85"
+          alt="Ruang hunian dengan pencahayaan alami" loading="lazy">
+        <span>THE ART OF LIVING WELL</span>
+      </div>
+
+      <div class="approach-copy reveal">
+        <p class="eyebrow">A MORE PERSONAL APPROACH</p>
+        <h2>Every great space starts with <em>a conversation.</em></h2>
+        <p>
+          No two people live alike. That's why we take the time to understand
+          your needs before we draw a single line.
+        </p>
+
+        <div class="process-list">
+          <div><span>01</span><p><strong>Listen & Discover</strong><small>Understanding your needs and aspirations.</small></p></div>
+          <div><span>02</span><p><strong>Imagine & Design</strong><small>Developing ideas into a considered concept.</small></p></div>
+          <div><span>03</span><p><strong>Refine & Deliver</strong><small>Bringing the vision together with care.</small></p></div>
+        </div>
+
+        <a href="#contact" class="button button-dark">Start a conversation <span>↗</span></a>
+      </div>
+    </section>
+
+    <!-- STATEMENT -->
+    <section class="statement section-pad">
+      <p class="eyebrow reveal">OUR POINT OF VIEW</p>
+      <h2 class="reveal">Less, but better.<br>Spaces that let life <em>happen.</em></h2>
+      <span class="statement-mark">R/A</span>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact section-pad" id="contact">
+      <div class="contact-copy reveal">
+        <p class="eyebrow">HAVE SOMETHING IN MIND?</p>
+        <h2>Let's create something <em>meaningful.</em></h2>
+        <p>Tell us a little about your project. We'd love to hear what you're imagining.</p>
+        <a class="contact-email" href="mailto:hello@ruangatelier.com">hello@ruangatelier.com ↗</a>
+      </div>
+
+      <form class="contact-form reveal" id="contact-form">
+        <label for="name">Your name</label>
+        <input id="name" name="name" type="text" placeholder="How should we call you?" required>
+
+        <label for="email">Email address</label>
+        <input id="email" name="email" type="email" placeholder="you@example.com" required>
+
+        <label for="project-type">What are you planning?</label>
+        <select id="project-type" name="project-type" required>
+          <option value="">Choose a project type</option>
+          <option>New residential design</option>
+          <option>Interior design</option>
+          <option>Renovation</option>
+          <option>Consultation</option>
+          <option>Other</option>
+        </select>
+
+        <label for="message">Tell us about your project</label>
+        <textarea id="message" name="message" rows="4" placeholder="A few details about your ideas..." required></textarea>
+
+        <button class="button button-dark" type="submit">Prepare inquiry <span>↗</span></button>
+        <p class="form-note">Demo form — submission will open your email app; no data is stored on a server.</p>
+      </form>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <a class="brand footer-brand" href="#home">
+      RUANG<span>ATELIER</span>
+      <small>ARCHITECTURE & DESIGN</small>
+    </a>
+
+    <p>Thoughtfully designed. Intentionally lived.</p>
+
+    <div class="footer-right">
+      <a href="#home">Back to top ↑</a>
+      <span>© <span id="year"></span> Ruang Atelier</span>
+    </div>
+  </footer>
+
+</body>
+</html>
